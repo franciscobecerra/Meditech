@@ -1,0 +1,46 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>MediTech</title>
+    <link rel="stylesheet" type="text/css" href="footerSystema.css">
+    <link rel="stylesheet" type="text/css" href="Cuenta/Cuenta.css">
+    
+    <script type="text/javascript" src="/Systema/footerSystema.js"></script>
+    
+    <script type="text/javascript" src="/jquery-3.3.1.js"></script>
+    
+    <script>
+        $( document ).ready(function() {
+            $("#contenido").load("Cuenta/Cuenta.php");
+        });
+    </script>    
+    
+</head>
+<body>
+    <header>
+        <div id=Botones>
+
+    	    <ul class=nav>
+
+				<li> <button id="SingUP" onclick="menu(1)" > Cerrar sesión </button> </li>
+				<li> <button onclick="menu(2)" > Mi cuenta </button> </li>
+                <li> <button onclick="menu(3)" > Citas </button> </li>
+                <li> <button onclick="menu(4)" > Recetas </button> </li>
+                <li> <button onclick="menu(5)" > Doctores </button> </li>
+						
+            </ul>
+        </div>
+        <H1 id=titulo> MediTech </H1>
+    </header>
+    
+    <div class="contenido" id="contenido"> </div>
+    
+</body>
+</html>
+   
+   
