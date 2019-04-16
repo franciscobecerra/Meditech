@@ -1,0 +1,125 @@
+
+.info-user{
+    width: 380px;
+    height: 520px;
+    background: #2C3E50;
+    color: #fff;
+    top: 55%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.info-userExtra{
+  width: 680px;
+  height: 520px;
+  background: #2C3E50;
+  color: #fff;
+  top: 55%;
+  left: 67%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.info-user .avatar {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 110px);
+}
+
+
+
+.info-user h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.info-user .datos{
+	position: absolute;
+	width: 320px;
+  	height: 300px;
+	top: 35%;
+}
+
+
+.info-user .datos label, .info-userExtra .datos label {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.info-user input, .info-userExtra input , select{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.info-user input[type="button"],.info-userExtra  input[type="button"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #ECF0F1;
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 2% 0 0 0px;
+}
+
+.info-user input[type="button"]:hover , .info-userExtra  input[type="button"]:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+table{
+	width: 100%;
+	margin: 0 0 15 0;
+}
+
+table label{
+	width: 100%;
+    font-size: 12px;
+}
+
+input[type="text"]{
+	padding: 1%;
+    width: 90%;
+    font-size: 17px;
+    margin: 5px;
+    color: black;
+}
+
+
+.info-user a:hover {
+  color: #fff;
+}
+
+
+th{
+    background: #2a2a2a;
+    color: white;
+    padding: 2px;
+    
+}
+
+td{
+    padding: 3%;
+    
+}
+
+
+
+
